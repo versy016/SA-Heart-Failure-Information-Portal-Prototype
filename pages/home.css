@@ -1,0 +1,44 @@
+body { 
+    background-image: url("../Images/background.png");
+    background-repeat: no-repeat;
+    padding: auto; 
+    margin: auto; 
+} 
+
+/* Contains the tabs and title */ 
+.Tabs { 
+    height: 150px; 
+    width: auto; 
+    background-color: whitesmoke;
+}
+
+.Search { 
+    display: flex;
+    height: 300px; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.searchBar { 
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, .2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+
+.searchBar input { 
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px, 20px ;
+    font-size: 20px;
+    color: black; 
+    backdrop-filter: blur(4px) saturate(180%);
+
+}
