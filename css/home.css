@@ -5,13 +5,6 @@ body {
     margin: auto; 
 } 
 
-/* Contains the tabs and title */ 
-.Tabs { 
-    height: 150px; 
-    width: auto; 
-    background-color: whitesmoke;
-}
-
 .Search { 
     display: flex;
     height: 300px; 

@@ -7,15 +7,17 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css"/>
+    <link href = "css/home.css" rel = "stylesheet" type = "text/css">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <title>Heart Failure Information </title>
   </head>
@@ -68,6 +70,14 @@
         </div>
 
       </header>
+      
+    <!-- Search Bar--> 
+    <div class ="Search"> 
+      <form action = "" class = "searchBar"> 
+          <input type = "text" placeholder = "search...", name = "search"> 
+          <button type = "submit"></button>
+      </form>
+    </div>
 
     <div class="hero" style="background-image: url('/Images/background.png');"></div>
   
