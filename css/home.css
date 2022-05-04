@@ -5,6 +5,7 @@ body {
     margin: auto; 
 } 
 
+/* Search Bar CSS */ 
 .Search { 
     display: flex;
     height: 300px; 
@@ -35,3 +36,46 @@ body {
     backdrop-filter: blur(4px) saturate(180%);
 
 }
+
+/* Column Card CSS */ 
+.columnCard { 
+    position: relative;
+    top: -700px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+
+}
+
+.card { 
+    background-color: white;
+    width: 700px; 
+    height: auto;
+    border-radius: 15px;
+}
+
+.columnCard h2 { 
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.columnCard p { 
+    text-align: center;
+    color: black;
+
+}
+
+.columnCard a { 
+    background-color: rgba(23, 140, 255, 0.8);    
+    color: white; 
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 20px; 
+    display: block; 
+    margin: 50px 100px; 
+    border-radius: 15px;
+
+}
+
+/* Other */ 

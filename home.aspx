@@ -23,17 +23,6 @@
   </head>
   <body>
 
-
-    <!-- <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div> -->
-
-
       <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
         <div class="container">
@@ -74,19 +63,30 @@
     <!-- Search Bar--> 
     <div class ="Search"> 
       <form action = "" class = "searchBar"> 
-          <input type = "text" placeholder = "search...", name = "search"> 
+          <input type = "text" placeholder = "Search...", name = "search"> 
           <button type = "submit"></button>
       </form>
     </div>
 
     <div class="hero" style="background-image: url('/Images/background.png');"></div>
   
+    <!-- Column Cards-->
+    <section class = "columnCard"> 
+      <div class = "card"> 
+          <h2>Latest Health Updates...</h2>
+          <p>Quidquid latine dictum sit altum videtur sesquipedalia verba</p> 
+          <a href = "">Sign Up</a>
+      </div>
+
+    </section>
 
 
+    <!-- Bootstrap scripts -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
+
   </body>
 </html>
