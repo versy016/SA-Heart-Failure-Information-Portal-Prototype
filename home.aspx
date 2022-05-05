@@ -23,11 +23,14 @@
   </head>
   <body>
 
+      <!--Menu Bar-->
       <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
         <div class="container">
           <div class="row align-items-center position-relative">
 
+            <!--SA Logo-->
+            <img class = "sa-logo" src= "../sa-heart-failure-information-portal/Images/logo.png" alt="SA logo">
 
             <div class="site-logo">
               <a href="home.aspx" class="text-black"><span class="text-primary">CEIH</a>
@@ -73,6 +76,7 @@
     <!-- Column Cards-->
     <section class = "columnCard"> 
       <div class = "card"> 
+          <div class = "card-image cardImg"></div>
           <h2>Latest Health Updates...</h2>
           <p>Quidquid latine dictum sit altum videtur sesquipedalia verba</p> 
           <a href = "">Sign Up</a>
