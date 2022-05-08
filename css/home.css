@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
 body { 
     background-image: url("../Images/background.png");
     background-repeat: no-repeat;
@@ -97,7 +99,25 @@ body {
     display: block; 
     margin: 50px 100px; 
     border-radius: 15px;
-
 }
 
-/* Other */ 
+/* Footer */ 
+.footer-container{ 
+    background-color: whitesmoke;
+    padding: 10px 0 10px 0;
+    height: 120px; 
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p { 
+    color: black;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
