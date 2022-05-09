@@ -19,19 +19,9 @@
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-    <title>Heart Failure Information </title>
+    <title>Heart Failure Information Portal </title>
   </head>
   <body>
-
-
-    <!-- <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div> -->
 
 
       <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
@@ -51,6 +41,7 @@
                   <li><a href="#home-section" class="nav-link">Home</a></li>
                   <li><a href="#services-section" class="nav-link">General Information</a></li>
                   <li><a href="#team-section" class="nav-link">SA Health Guidelines</a></li>
+                  <li><a href="login.aspx" class="nav-link">Login</a></li>
 
                   <li class="has-children">
                     <a href="#about-section" class="nav-link">About Us</a>
