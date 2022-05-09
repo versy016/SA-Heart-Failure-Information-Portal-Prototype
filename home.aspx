@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-    <title>Heart Failure Information </title>
+    <title>Heart Failure Information Portal </title>
   </head>
   
   <body>
@@ -44,9 +44,9 @@
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                   <li><a href="#home-section" class="nav-link">Home</a></li>
                   <li><a href="#services-section" class="nav-link">General Information</a></li>
-                  <li><a href="#faq-section" class="nav-link">Sign Up</a></li>
-                  
-                  <!--About Us Drop Down-->
+                  <li><a href="#team-section" class="nav-link">SA Health Guidelines</a></li>
+                  <li><a href="login.aspx" class="nav-link">Login</a></li>
+
                   <li class="has-children">
                     <a href="#about-section" class="nav-link">About Us</a>
                     <ul class="dropdown arrow-top">
