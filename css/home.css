@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
 body { 
     background-image: url("../Images/background.png");
     background-repeat: no-repeat;
@@ -5,6 +7,17 @@ body {
     margin: auto; 
 } 
 
+/* Logo CSS */ 
+.sa-logo { 
+    display: flex;
+    width: 70px;
+    margin: 15px; 
+    position: absolute;
+    left: -100px;
+    top: -15px;
+}
+
+/* Search Bar CSS */ 
 .Search { 
     display: flex;
     height: 300px; 
@@ -34,4 +47,77 @@ body {
     color: black; 
     backdrop-filter: blur(4px) saturate(180%);
 
+}
+
+/* Column Card CSS */ 
+.columnCard { 
+    position: relative;
+    top: -700px;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+
+}
+
+.card { 
+    background-color: white;
+    width: 700px; 
+    height: auto;
+    border-radius: 15px;
+}
+
+.card-image { 
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.cardImg { 
+    background-image: url("../Images/heartImage.png");
+}
+
+.columnCard h2 { 
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.columnCard p { 
+    text-align: center;
+    color: black;
+
+}
+
+.columnCard a { 
+    background-color: rgba(23, 140, 255, 0.8);    
+    color: white; 
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 20px; 
+    display: block; 
+    margin: 50px 100px; 
+    border-radius: 15px;
+}
+
+/* Footer */ 
+.footer-container{ 
+    background-color: whitesmoke;
+    padding: 10px 0 10px 0;
+    height: 120px; 
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p { 
+    color: black;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
 }
