@@ -45,7 +45,6 @@
                   <li><a href="#home-section" class="nav-link">Home</a></li>
                   <li><a href="#services-section" class="nav-link">General Information</a></li>
                   <li><a href="#team-section" class="nav-link">SA Health Guidelines</a></li>
-                  <li><a href="login.aspx" class="nav-link">Login</a></li>
 
                   <li class="has-children">
                     <a href="#about-section" class="nav-link">About Us</a>
@@ -63,6 +62,7 @@
                       <li><a href="#pricing-section" class="nav-link">Accessibility</a></li>
                     </ul>
                   </li>
+                  <li><a href="login.aspx" class="nav-link">Login</a></li>
                 </ul>
               </nav>
             </div>
@@ -74,11 +74,6 @@
 
       </header>
 
-    <!--Footer & Lanugage Selector-->
-    <div class = "footer-container">
-      <p>L7 Citi Centre Building, 11 Hindmarsh Square, Adelaide SA 5000 <br>©2020 Commission on Excellence and Innovation in Health</br></p>
-    </div>
-
     <!-- Search Bar--> 
     <div class ="Search"> 
       <form action = "" class = "searchBar"> 
@@ -86,20 +81,104 @@
           <button type = "submit"></button>
       </form>
     </div>
-
-    <div class="hero" style="background-image: url('/Images/background.png');"></div>
-  
-    <!-- Column Cards-->
     <section class = "columnCard"> 
       <div class = "card"> 
           <div class = "card-image cardImg"></div>
           <h2>Latest Health Updates...</h2>
-          <p>Quidquid latine dictum sit altum videtur sesquipedalia verba</p> 
+          <p>Sign Up to view latest News and Guidelines regarding Heart Failure</p> 
           <a href = "">Sign Up</a>
       </div>
 
     </section>
+    <!-- <div class="hero" style="background-image: url('/Images/background.png');"></div> -->
+  
+    <!-- Column Cards-->
+   
+    <section class="light">
+      <div class="container py-2">
+          <div class="h1 text-center text-dark" id="pageHeaderTitle"> </div>
+  
+          <article class="postcard light blue">
+              <a class="postcard__img_link" href="#">
+                  <img class="postcard__img" src="https://picsum.photos/1000/1000" alt="Image Title" />
+              </a>
+              <div class="postcard__text t-dark">
+                  <h1 class="postcard__title blue"><a href="#">Title</a></h1>
+                  <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                  <ul class="postcard__tagbox">
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Info</li>
+                  </li>
+                  </ul>
+              </div>
+          </article>
+          <article class="postcard light red">
+              <a class="postcard__img_link" href="#">
+                  <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />	
+              </a>
+              <div class="postcard__text t-dark">
+                  <h1 class="postcard__title red"><a href="#">Title</a></h1>
+                  <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                  <ul class="postcard__tagbox">
+                    <li class="tag__item"><i class="fas fa-tag mr-2"></i>Guidelines</li>
+                     
+                  </ul>
+              </div>
+          </article>
+          <article class="postcard light green">
+              <a class="postcard__img_link" href="#">
+                  <img class="postcard__img" src="https://picsum.photos/500/501" alt="Image Title" />
+              </a>
+              <div class="postcard__text t-dark">
+                  <h1 class="postcard__title green"><a href="#">Title</a></h1>
+                  <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                  <ul class="postcard__tagbox">
+                      <li class="tag__item"><i class="fas fa-tag mr-2"></i>Guidelines</li>
+                  </ul>
+              </div>
+          </article>
+          <article class="postcard light yellow">
+              <a class="postcard__img_link" href="#">
+                  <img class="postcard__img" src="https://picsum.photos/501/501" alt="Image Title" />
+              </a>
+              <div class="postcard__text t-dark">
+                  <h1 class="postcard__title yellow"><a href="#">Title</a></h1>
+                  <div class="postcard__subtitle small">
+                      <time datetime="2020-05-25 12:00:00">
+                          <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                      </time>
+                  </div>
+                  <div class="postcard__bar"></div>
+                  <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis enim quidem excepturi, illum quos!</div>
+                  <ul class="postcard__tagbox">
+                      <li class="tag__item"><i class="fas fa-tag mr-2"></i>Something Something</li>
+                  </ul>
+              </div>
+          </article>
+      </div>
+  </section>
 
+    <!--Footer & Lanugage Selector-->
+    <div class = "footer-container">
+      <p>L7 Citi Centre Building, 11 Hindmarsh Square, Adelaide SA 5000 <br>©2020 Commission on Excellence and Innovation in Health</br></p>
+    </div>
 
     <!-- Bootstrap scripts -->
     <script src="js/jquery-3.3.1.min.js"></script>

@@ -22,13 +22,41 @@
               alert("Please enter your password");
               
             }
-            else (email == "" )
+            else if (email == "" )
             {
               alert("Please enter your email");
             }
+            else{
+              window.location = "loginpage.aspx";
+                        return true;   
+            
+            }
             
          }
-                   
+         function ProcessRequest() 
+        {  
+            
+
+            // if ( xmlHttp.status == 200 && document.getElementById('dot-1').checked ||  document.getElementById('dot-2').checked) 
+            // {  
+            //      if (document.getElementById('dot-1').checked) {
+            //             window.location = "user.html";
+            //             return true;         
+
+            //         }
+            //     if (document.getElementById('dot-2').checked ) {
+                  
+                             
+
+            //         }
+            //     return true;
+            //     }
+            // else {
+            //      alert ("Login was unsuccessful, please check your username and password");
+            //      return false;
+            //         }
+
+            }                      
 
         </script>
 
