@@ -90,7 +90,6 @@
       </div>
 
     </section>
-    <!-- <div class="hero" style="background-image: url('/Images/background.png');"></div> -->
   
     <!-- Column Cards-->
    
