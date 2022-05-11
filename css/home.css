@@ -50,7 +50,6 @@ body {
 /* Column Card CSS */ 
 .columnCard { 
     position: relative;
-    /* top: -700px; */
     display: flex; 
     justify-content: center;
     flex-wrap: wrap; 
@@ -64,16 +63,13 @@ body {
     border-radius: 15px;
 }
 
-.card-image { 
-    background-color: aqua;
-    height: 200px;
+.cardImg { 
+    background-image: url("../Images/heartimage.png");
+    height: 250px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
-}
-
-.cardImg { 
-    background-image: url("../Images/heartImage.png");
+    padding: 10px;
 }
 
 .columnCard h2 { 
