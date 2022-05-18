@@ -42,13 +42,13 @@
               <nav class="site-navigation text-right ml-auto " role="navigation">
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="#home-section" class="nav-link">Home</a></li>
-                  <li><a href="#services-section" class="nav-link">General Information</a></li>
+                  <li><a href="home.aspx" class="nav-link">Home</a></li>
+                  <li><a href="generalInformation.aspx" class="nav-link">General Information</a></li>
 
                   <li class="has-children">
                     <a href="#about-section" class="nav-link">About Us</a>
                     <ul class="dropdown arrow-top">
-                      <li><a href="#pricing-section" class="nav-link">Members</a></li>
+                      <li><a href="members.aspx" class="nav-link">Members</a></li>
                       <li><a href="#pricing-section" class="nav-link">Regional Nursing Visits</a></li>
                       <li><a href="contactUs.aspx" class="nav-link">Contact Us</a></li>
                     </ul>
