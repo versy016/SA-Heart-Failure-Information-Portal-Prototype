@@ -6,7 +6,7 @@
 
 
 .body { 
-    background-color: lightskyblue; 
+    background-color: whitesmoke; 
     font-family: sans-serif;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .course { 
-    background-color: #fff;
+    background-color:aliceblue; 
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,.2); 
     display: flex;
@@ -36,11 +36,13 @@
     width: 250px; 
     position: relative;
     justify-content: center;
+    align-items: center;
+
 }
 
 .portrait-img { 
-    width: 150px; 
-    height: 150px; 
+    width: 230px; 
+    height: 210px; 
     flex: center;
     border-radius: 10px;
 }
@@ -80,7 +82,7 @@
 }
 
 .course-2 { 
-    background-color: #fff;
+    background-color:aliceblue; 
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,.2); 
     display: flex;
@@ -98,11 +100,12 @@
     width: 250px; 
     position: relative;
     justify-content: center;
+    align-items: center;
 }
 
 .portrait-img-2{ 
-    width: 150px; 
-    height: 150px; 
+    width: 230px; 
+    height: 210px; 
     flex: center;
     border-radius: 10px;
 }
@@ -142,7 +145,7 @@
 }
 
 .course-3 { 
-    background-color: #fff;
+    background-color:aliceblue; 
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,.2); 
     display: flex;
@@ -160,11 +163,12 @@
     width: 250px; 
     position: relative;
     justify-content: center;
+    align-items: center;
 }
 
 .portrait-img-3 { 
-    width: 150px; 
-    height: 150px; 
+    width: 230px; 
+    height: 210px; 
     flex: center;
     border-radius: 10px;
 }
