@@ -1,0 +1,106 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-color: whitesmoke;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+    background-size: cover;
+    background-position: center;
+}
+
+.main { 
+
+    position: relative;
+    display: flex;
+    margin-top: 300px; 
+    margin-bottom: 600px; 
+    margin-right: auto;
+    margin-left: auto; 
+    padding: 10px; 
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-content { 
+    
+    background-color: whitesmoke;
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 10px; 
+    height: 300px; 
+    width: 80%; 
+
+    display: flex;
+    position: absolute;
+
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+
+.button-main { 
+
+    font-family: sans-serif;
+    font-size: 20px; 
+    font-weight: bold;
+    background-color: #4fd6ff; 
+    border-radius: 5px;
+
+    position: absolute;
+    padding: 5px; 
+
+    margin-top: 250px ; 
+    margin-left: 45%; 
+    margin-bottom: 5px; 
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+h2 { 
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+p { 
+    font-family: sans-serif;
+    font-size: 15px;
+
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
+
+
+/* Column Class Cards - Main Body*/
+
+.cards {
+    background-color: whitesmoke;
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 10px; 
+    height: 300px; 
+    width: 80%; 
+
+    display: flex;
+    position: absolute;
+
+    margin-top: 700px; 
+    margin-left: auto; 
+    margin-right: auto; 
+
+}
