@@ -26,7 +26,27 @@
         </div>
          <!--Column Card Class-->
         <div class = "cards"> 
-          <h1> Text </h1>
+          <div class = "column-card"> 
+            <h3>Title Heart Failure</h3>
+            <h6>Itaque earum rerum hic tenetur a sapiente delectus, 
+                ut aut reiciendis voluptatibus maiores alias consequatur 
+                aut perferendis doloribus asperiores repellat</h6>
+            <a href = "#">Read More</a>
+          </div>
+          <div class = "column-card-2"> 
+            <h3-2>Title Heart Failure</h3-2>
+            <h6-2>Itaque earum rerum hic tenetur a sapiente delectus, 
+                ut aut reiciendis voluptatibus maiores alias consequatur 
+                aut perferendis doloribus asperiores repellat</h6-2>
+            <a href = "#">Read More</a>
+          </div>
+          <div class = "column-card-3"> 
+            <h3-3>Title Heart Failure</h3-3>
+            <h6-3>Itaque earum rerum hic tenetur a sapiente delectus, 
+                ut aut reiciendis voluptatibus maiores alias consequatur 
+                aut perferendis doloribus asperiores repellat</h6-3>
+            <a href = "#">Read More</a>
+          </div>
         </div> 
       </div>
 

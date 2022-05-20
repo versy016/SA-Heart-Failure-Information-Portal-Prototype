@@ -99,8 +99,134 @@ p {
     display: flex;
     position: absolute;
 
-    margin-top: 700px; 
+    margin-top: 850px; 
     margin-left: auto; 
     margin-right: auto; 
+    margin-bottom: 150px;
+
+}
+
+.column-card { 
+    background-color: rgba(240,240,240,1);
+    position: relative;
+    display: flex;
+    float: left; 
+    height: 300px;
+    width: 33%; 
+
+
+}
+.column-card-2 { 
+    background-color: rgba(240,240,240,1);
+    position: relative;
+    display: flex;
+    float: center; 
+    height: 300px;
+    width: 33%; 
+    padding-left: 5px; 
+    padding-right: 5px; 
+
+}
+
+.column-card-3 { 
+    background-color: rgba(240,240,240,1);
+    position: relative;
+    display: flex;
+    float: right; 
+    height: 300px;
+    width: 33%; 
+
+}
+
+/* Card 1 styling */ 
+
+h3 { 
+    padding: 10px; 
+    text-align: left;
+
+    margin: 0;
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+   
+}
+
+h6 { 
+
+    font-size: 15px;
+    font-family: sans-serif;
+
+    margin: 0; 
+
+    padding: 10px;
+    text-align: left;
+
+}
+
+a { 
+    font-family: sans-serif;
+    font-size: 15px;
+    position: absolute;
+    padding: 5px; 
+
+    margin-top: 250px ; 
+    margin-left: 25%; 
+    margin-bottom: 5px; 
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* Card 2 styling */ 
+h3-2 { 
+    padding: 10px; 
+    text-align: left;
+
+    margin: 0;
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+   
+}
+
+h6-2 { 
+
+    font-size: 15px;
+    font-family: sans-serif;
+
+    margin: 0; 
+
+    padding: 10px;
+    text-align: left;
+
+}
+
+
+
+/* Card 3 styling */ 
+h3-3 { 
+    padding: 10px; 
+    text-align: left;
+
+    margin: 0;
+
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold; 
+   
+}
+
+h6-3 { 
+
+    font-size: 15px;
+    font-family: sans-serif;
+
+    margin: 0; 
+
+    padding: 10px;
+    text-align: left;
 
 }
