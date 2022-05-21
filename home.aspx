@@ -49,7 +49,6 @@
                     <a href="#about-section" class="nav-link">About Us</a>
                     <ul class="dropdown arrow-top">
                       <li><a href="members.aspx" class="nav-link">Members</a></li>
-                      <li><a href="#pricing-section" class="nav-link">Regional Nursing Visits</a></li>
                       <li><a href="contactUs.aspx" class="nav-link">Contact Us</a></li>
                     </ul>
                   </li>

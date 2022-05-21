@@ -44,21 +44,11 @@
             </div>
           </div>
       </div> 
-      
-      <div class = "container-main-3">
-        <div class = "course-3"> 
-            <div class="preview-3">
-                <img src = "../sa-heart-failure-information-portal/Images/portraitImg.png" class = "portrait-img-3" alt = "image"> 
-            </div> 
-            <div class="info-3">
-              <h6>Member Role</h6>
-              <h2> Member Name</h2> 
-              <p class="text-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-            </div>
-          </div>
-      </div> 
 
-
+      <!--Footer & Lanugage Selector-->
+      <div class = "footer-container">
+        <p4>L7 Citi Centre Building, 11 Hindmarsh Square, Adelaide SA 5000 <br>©2020 Commission on Excellence and Innovation in Health</br></p4>
+      </div>
 
     </body>
 </html>

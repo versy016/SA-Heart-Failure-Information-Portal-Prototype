@@ -20,10 +20,12 @@
     </head>
     <body> 
 
+        <!--Center Container-->
         <div class = "contact-container"> 
             <h1>CONTACT US</h1>
             <h3>Let's Connect...</h3>
         </div>
+        <!--Left Container-->
         <div class = "row-1"> 
             <h2> Find Us Today!</h2>
             <p><br></br></p>
@@ -35,6 +37,7 @@
             <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
                 nisi ut aliquid ex ea commodi consequatur</p>
         </div>
+        <!--Right Container-->
         <div class = "row-2"> 
             <h2>Location</h2>
             <p><br></br></p>
