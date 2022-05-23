@@ -23,6 +23,21 @@ body {
     justify-content: center;
 
 }
+/* Style the submit button */
+.Search button {
+  float: right;
+  width: 20%;
+  padding: 10px;
+  background: transparent;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+/* form.example button:hover {
+  background: #0b7dda;
+} */
 
 .searchBar { 
     width: 100%;
