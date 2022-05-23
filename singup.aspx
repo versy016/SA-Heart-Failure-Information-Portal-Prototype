@@ -37,11 +37,11 @@
       <form name="signup" action="Index.html"   method="POST">        
         <div class="user-details">
           <div class="input-box">
-            <span class="details">first name</span>
+            <span class="details">Gievn name</span>
             <input type="text" id="firstName" name ="txt_user" placeholder="Enter first name" required>
           </div>
           <div class="input-box">
-            <span class="details">last name</span>
+            <span class="details">Family name</span>
             <input type="text" id="lastName" placeholder="Enter last name" required>
           </div>
           <div class="input-box">

@@ -27,7 +27,7 @@
               alert("Please enter your email");
             }
             else{
-              window.location = "loginpage.aspx";
+              window.location = "profile.aspx";
                         return true;   
             
             }

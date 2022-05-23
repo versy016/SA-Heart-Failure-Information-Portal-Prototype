@@ -20,6 +20,42 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 
     <title>Heart Failure Information Portal </title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+      var pageWidth = document.documentElement.clientWidth
+    </script>
+   
+  </head>
+  
+  <body>
+
+      <!--Menu Bar-->
+      <!-- <div id="header">
+        <embed type="text/html" src="headerpage.aspx" width= "pageWidth">
+
+      </div> -->
+      <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- <link href = "css/home.css" rel = "stylesheet" type = "text/css"> -->
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <title>Heart Failure Information Portal </title>
   </head>
   
   <body>
@@ -31,7 +67,7 @@
           <div class="row align-items-center position-relative">
 
             <!--SA Logo-->
-            <img class = "sa-logo" src= "../sa-heart-failure-information-portal/Images/logo.png" alt="SA logo">
+            <!-- <img class = "sa-logo" src= "../sa-heart-failure-information-portal/Images/logo.png" alt="SA logo"> -->
 
             <!--CEHI Logo-->
             <div class="site-logo">
@@ -73,6 +109,8 @@
         </div>
 
       </header>
+    </body>
+  </html>
 
     <!-- Search Bar--> 
     <div class ="Search"> 
