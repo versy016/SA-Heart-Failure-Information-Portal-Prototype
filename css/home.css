@@ -65,10 +65,6 @@ body {
 /* Column Card CSS */ 
 .columnCard { 
     position: relative;
-<<<<<<< HEAD
-    top: -70px;
-=======
->>>>>>> 5b4222eb845a6e79bafa76a48514a7e3d1d7242c
     display: flex; 
     justify-content: center;
     flex-wrap: wrap; 
@@ -82,18 +78,6 @@ body {
     border-radius: 15px;
 }
 
-<<<<<<< HEAD
-.card-image { 
-    height: 400px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-    align-items: center;
-}
-
-.cardImg { 
-    background-image: url("../Images/heartImage.png");
-=======
 .cardImg { 
     background-image: url("../Images/heartimage.png");
     height: 250px;
@@ -101,7 +85,6 @@ body {
     background-size: cover;
     border-radius: 15px 15px 0 0;
     padding: 10px;
->>>>>>> 5b4222eb845a6e79bafa76a48514a7e3d1d7242c
 }
 
 .columnCard h2 { 
