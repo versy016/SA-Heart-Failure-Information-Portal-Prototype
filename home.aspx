@@ -78,16 +78,14 @@
               <nav class="site-navigation text-right ml-auto " role="navigation">
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="#home-section" class="nav-link">Home</a></li>
-                  <li><a href="#services-section" class="nav-link">General Information</a></li>
-                  <li><a href="#team-section" class="nav-link">SA Health Guidelines</a></li>
+                  <li><a href="home.aspx" class="nav-link">Home</a></li>
+                  <li><a href="generalInformation.aspx" class="nav-link">General Information</a></li>
 
                   <li class="has-children">
                     <a href="#about-section" class="nav-link">About Us</a>
                     <ul class="dropdown arrow-top">
-                      <li><a href="#pricing-section" class="nav-link">Members</a></li>
-                      <li><a href="#pricing-section" class="nav-link">Regional Nursing Visits</a></li>
-                      <li><a href="#faq-section" class="nav-link">Contact Us</a></li>
+                      <li><a href="members.aspx" class="nav-link">Members</a></li>
+                      <li><a href="contactUs.aspx" class="nav-link">Contact Us</a></li>
                     </ul>
                   </li>
                    <!--Settings Drop Down-->
@@ -121,7 +119,7 @@
     </div>
     <section class = "columnCard"> 
       <div class = "card"> 
-          <div class = "card-image cardImg"></div>
+          <div class = "cardImg"></div>
           <h2>Latest Health Updates...</h2>
           <p>Sign Up to view latest News and Guidelines regarding Heart Failure</p> 
           <a href = "">Sign Up</a>

@@ -1,0 +1,123 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+}
+
+body { 
+    background-color: whitesmoke;
+    background-image: url('../Images/contact-us.png');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position: center;
+}
+
+.contact-container{ 
+    display: flex; 
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap; 
+
+    text-align: center;
+
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    top: 250px;
+
+    background-color: white;
+    border: 2px solid black; 
+    border-radius: 5px;
+
+}
+
+h1 { 
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+
+h3 { 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    height: 180px; 
+}
+
+/* Container */ 
+
+.row-1 {
+    display: block; 
+    position: relative;
+    justify-content: center;
+    float: left;
+    flex-wrap: wrap; 
+
+    align-items: center;
+
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    top: 350px;
+    padding: 20px; 
+
+    background-color: whitesmoke;
+    border: 1px solid black; 
+
+}
+
+.row-2 { 
+    display: block; 
+    position: relative;
+    justify-content: center;
+    float: right;
+    flex-wrap: wrap; 
+
+    height: 500px;
+    width: 50%;
+    margin: auto;
+    top: 350px;
+    padding: 20px;
+
+    background-color: whitesmoke;
+    border: 1px solid black; 
+
+}
+
+.img-class { 
+    height: 300px; 
+    width: 300px;
+    border-radius: 5px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+    align-items: center;
+
+}
+
+h2 { 
+
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h4 { 
+
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+p { 
+    font: 15px;
+    font-family: sans-serif;
+}
