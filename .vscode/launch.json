@@ -19,21 +19,21 @@
         //     "url": "http://localhost:8080",
         //     "file": "C:/Users/shiva/Desktop/CEIHInformationPortalPrototype/pages/home.aspx"
         // },
-       /* {
-            "type": "firefox",
-            "request": "launch",
-            "reAttach": true,
-            "name": "Firefox + localhost",
-            "url": "http://localhost:4200/",
-            "file": "C:/Users/shiva/Desktop/CEIHInformationPortalPrototype/home.aspx"
-        }, */ 
         {
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
             "name": "Firefox + localhost",
             "url": "http://localhost:4200/",
-            "file": "/Users/pv/Desktop/ICT PORTAL/sa-heart-failure-information-portal/home.aspx"
-        }
+            "file": "C:/Users/shiva/Desktop/CEIHInformationPortalPrototype/home.aspx"
+        },  
+        // {
+        //     "type": "firefox",
+        //     "request": "launch",
+        //     "reAttach": true,
+        //     "name": "Firefox + localhost",
+        //     "url": "http://localhost:4200/",
+        //     "file": "/Users/pv/Desktop/ICT PORTAL/sa-heart-failure-information-portal/home.aspx"
+        // }
     ]
 }
