@@ -94,14 +94,14 @@
     <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" id="sidebar">
         <hr>
         <ul class="nav nav-pills flex-column mb-auto">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a href="#" class="nav-link active" aria-current="page">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#home" />
                     </svg>
                     Home
                 </a>
-            </li>
+            </li> -->
             <li>
                 <a href="#" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
@@ -196,32 +196,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="row ">
-            <div class="col-sm-6">
-                <div class="card" style="height: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Latest Information</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">Latest Information </a>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="card" style="width: 18rem">
-                        <img class="card-img-top"
-                            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                            alt="Snowy Mountains">
-                        <div class="card-body">
-                            <h5 class="card-title">Latest Information</h5>
-                            <p class="card-text">Access the lates Information on heart failure</p>
-                            <a href="#" class="btn btn-primary">Latest Information </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </section>
 </body>
 
