@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    
+
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css"/>
     <link href = "css/home.css" rel = "stylesheet" type = "text/css">
@@ -31,50 +32,14 @@
 
       <!--Menu Bar-->
       <!-- <div id="header">
-        <embed type="text/html" src="headerpage.aspx" width= "pageWidth">
-
-      </div> -->
-      <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css"/>
-    <!-- <link href = "css/home.css" rel = "stylesheet" type = "text/css"> -->
-
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-    <title>Heart Failure Information Portal </title>
-  </head>
-  
+        <embed type="text/html" src="headerpage.aspx" width= "1000"> -->
   <body>
-
-      <!--Menu Bar-->
       <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
-        <div class="container">
-          <div class="row align-items-center position-relative">
-
-            <!--SA Logo-->
-            <!-- <img class = "sa-logo" src= "../sa-heart-failure-information-portal/Images/logo.png" alt="SA logo"> -->
-
-            <!--CEHI Logo-->
-            <div class="site-logo">
-              <a href="home.aspx" class="text-black"><span class="text-primary">CEIH</a>
-            </div>
-
             <div class="col-12">
+              <div class="site-logo ">
+                <a href="home.aspx" class="text-black"><span class="text-primary">CEIH</a>
+              </div>
               <nav class="site-navigation text-right ml-auto " role="navigation">
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
@@ -103,7 +68,6 @@
 
             <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
-          </div>
         </div>
 
       </header>
@@ -122,7 +86,7 @@
           <div class = "cardImg"></div>
           <h2>Latest Health Updates...</h2>
           <p>Sign Up to view latest News and Guidelines regarding Heart Failure</p> 
-          <a href = "">Sign Up</a>
+          <a href = "singup.aspx">Sign Up</a>
       </div>
 
     </section>

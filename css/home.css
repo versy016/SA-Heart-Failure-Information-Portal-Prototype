@@ -1,26 +1,20 @@
 body { 
-    background-image: url("../Images/background.png");
-    background-repeat: no-repeat;
+    /* background-image: url("../Images/background.png");
+    background-repeat: no-repeat; */
     padding: auto; 
     margin: auto; 
+    background-color: #ebd8d8;
 } 
 
-/* Logo CSS */ 
-.sa-logo { 
-    display: flex;
-    width: 70px;
-    margin: 15px; 
-    position: absolute;
-    left: -100px;
-    top: -15px;
-}
+
 
 /* Search Bar CSS */ 
 .Search { 
     display: flex;
-    height: 300px; 
+    height: 150px; 
     align-items: center;
     justify-content: center;
+    border: #060606;
 
 }
 /* Style the submit button */
@@ -29,7 +23,7 @@ body {
   width: 20%;
   padding: 10px;
   background: transparent;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 17px;
   border: none;
   cursor: pointer;
@@ -154,6 +148,9 @@ a:hover {
 }
 
 /* Cards */
+.light {
+  background-color: #ebd8d8;
+}
 .postcard {
   flex-wrap: wrap;
   display: flex;
@@ -162,7 +159,6 @@ a:hover {
   margin: 0 0 2rem 0;
   overflow: hidden;
   position: relative;
-  color: #ffffff;
 }
 .postcard.dark {
   background-color: #18151f;
