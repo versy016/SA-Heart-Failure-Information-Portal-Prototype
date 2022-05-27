@@ -34,7 +34,7 @@
   <div class="container">
     <div class="title">Registration</div>
     <div class="content">
-      <form name="signup" action="Index.html"   method="POST">        
+      <form name="signup" action="login.aspx"   method="POST">        
         <div class="user-details">
           <div class="input-box">
             <span class="details">Gievn name</span>
