@@ -27,7 +27,7 @@
               alert("Please enter your email");
             }
             else{
-              window.location = "profile.aspx";
+              window.location = "patientPage.aspx";
                         return true;   
             
             }
