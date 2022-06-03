@@ -124,7 +124,7 @@
                         <use xlink:href="#people-circle" />
                     </svg>
                     Profile
-                    
+
                 </a>
             </li>
         </ul>
@@ -133,68 +133,37 @@
 
     <section>
         <div class="row ">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Latest Information</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">Latest Information </a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Guidelines</h5>
-                        <p class="card-text">Access the Guidelines on heart failure</p>
-                        <a href="#" class="btn btn-primary"> Guidelines </a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Latest News</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">News</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Clinical Trials and Research</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">Clinical Trials and Research </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card" style="height: 18rem">
-                    <div class="card-body">
-                        <h5 class="card-title">Nearby Services</h5>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <a href="https://goo.gl/maps/drPW7JdCdy62"><address class="font-italic">Piazza del Colosseo, 1, 00184 Roma RM</address></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Surveys</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+            <table class="table caption-top">
+                <caption>Discussion Forum  <button class="button-34" role="button" style=" float: right;">Create New Post</button></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Discussion</th>
+                        <th scope="col">Started by</th>
+                        <th scope="col">Last post</th>
+                        <th scope="col">Replies</th>
+                    </tr>
+                </thead>
+                <tbody class="table group-divider">
+                    <tr>
+                        <th scope="row">Is smoking weed good for your heart?</th>
+                        <td>Shivam </td>
+                        <td>Paul</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tips for healthy heart?</th>
+                        <td>Jan </td>
+                        <td>Paul</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Studying too much effects your heart?</th>
+                        <td>Paul </td>
+                        <td>Shivam</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </section>
 </body>
