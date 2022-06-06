@@ -28,7 +28,7 @@
    
   </head>
   
-  <body>
+ 
 
       <!--Menu Bar-->
       <!-- <div id="header">
@@ -71,8 +71,6 @@
         </div>
 
       </header>
-    </body>
-  </html>
 
     <!-- Search Bar--> 
     <div class ="Search"> 

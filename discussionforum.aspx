@@ -6,17 +6,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Style -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/patientPage.css" />
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <script>
+        function addRow() {
+            // get input values
+            var Subject = document.getElementById('Subject').value;
+            var Message = document.getElementById('Message').value;
 
+            // get the html table
+            // 0 = the first table
+            var table = document.getElementsByTagName('table')[0];
+
+            // add new empty row to the table
+            // 1 = in the top 
+            // table.rows.length = the end
+            var newRow = table.insertRow(1);
+
+            // add cells to the row
+            var cel1 = newRow.insertCell(0);
+            var cel2 = newRow.insertCell(1);
+            var cel3 = newRow.insertCell(2);
+            var cel4 = newRow.insertCell(3);
+            var cel5 = newRow.insertCell(4);
+
+            // add values to the cells
+            cel1.innerHTML = Subject;
+            cel1.style.fontWeight = 'bold';
+            cel2.innerHTML = "Shivam";
+            cel3.innerHTML = "-";
+            cel4.innerHTML = "0";
+                     
+        }
+
+        function cleartext(){
+
+            //clear the text area
+            document.getElementById('Subject').value = '';        
+            document.getElementById('Message').value = '';        
+
+        }
+    </script>
     <title>Patient Page</title>
 
 <body>
@@ -134,7 +169,31 @@
     <section>
         <div class="row ">
             <table class="table caption-top">
-                <caption>Discussion Forum  <button class="button-34" role="button" style=" float: right;">Create New Post</button></caption>
+                <caption>Discussion Forum <button class="button-34" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsepost" aria-expanded="false" aria-controls="collapseExample"
+                        style=" float: right;">Create New Post</button>
+                </caption>
+                <div class="collapse" id="collapsepost">
+                    <div class="card" style="width: 38rem;">
+
+                        <div class="card card-body">
+
+                            Subject: <input type="text" name="Subject" id="Subject" /><br /><br />
+                            Message: <textarea type="text" rows="10" name="Message" id="Message" required minlength="10"
+                                maxlength="5000"></textarea><br /><br />
+                            <div class="row" style="padding: 1rem;">
+                                <button class="btn btn-primary" onclick="addRow();cleartext();" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsepost" aria-expanded="false"
+                                    aria-controls="collapseExample">Post to forum</button><br /><br />
+                                &nbsp;
+                                &nbsp;
+                                <button class="btn btn-outline-dark" onclick="cleartext();" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsepost" aria-expanded="false"
+                                    aria-controls="collapseExample">Cancel</button><br /><br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <thead>
                     <tr>
                         <th scope="col">Discussion</th>
@@ -163,9 +222,17 @@
                         <td>5</td>
                     </tr>
                 </tbody>
+
             </table>
+
         </div>
     </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
