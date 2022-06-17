@@ -103,7 +103,7 @@
                 </a>
             </li> -->
             <li>
-                <a href="#" class="nav-link text-white">
+                <a href="patientPage.aspx" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#speedometer2" />
                     </svg>
@@ -111,7 +111,7 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white">
+                <a href="discussionforum.aspx" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#table" />
                     </svg>
@@ -119,12 +119,11 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="nav-link text-white">
+                <a href="profile.aspx" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#people-circle" />
                     </svg>
                     Profile
-                    
                 </a>
             </li>
         </ul>
@@ -181,8 +180,8 @@
                 <div class="card" style="height: 18rem">
                     <div class="card-body">
                         <h5 class="card-title">Nearby Services</h5>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <a href="https://goo.gl/maps/drPW7JdCdy62"><address class="font-italic">Piazza del Colosseo, 1, 00184 Roma RM</address></a>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62234.61599009292!2d138.5770226155087!3d-34.93644991564545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab735c7c526b33f%3A0x4033654628ec640!2sAdelaide%20SA!5e0!3m2!1sen!2sau!4v1654546285403!5m2!1sen!2sau" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <a href="https://www.google.com/maps/@-34.8996956,138.6049149,13z"><address class="font-italic">Adelaide, 5000 S.A. Australia</address></a>
                     </div>
                 </div>
             </div>
@@ -199,4 +198,4 @@
     </section>
 </body>
 
-</html>
+</html><iframe src= width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
