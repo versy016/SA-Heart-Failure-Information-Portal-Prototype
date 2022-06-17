@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="css/signup.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Validates the email and phone number -->
      <script>
         function validateForm(firstName,lastName,emailID,password,contactNo)
       {   
@@ -31,6 +32,7 @@
    
   </head>
 <body>
+   <!-- Profile Sign Up Page -->
   <div class="container">
     <div class="title">Registration</div>
     <div class="content">

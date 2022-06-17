@@ -19,6 +19,7 @@
     </head>
     <body>
 
+    <!-- Member Column Card 1 -->
     <div class = "container-main">
       <div class = "course"> 
           <div class="preview">
@@ -32,6 +33,7 @@
         </div>
     </div> 
 
+    <!-- Member Column Card 2 -->
     <div class = "container-main-2">
         <div class = "course-2"> 
             <div class="preview-2">
