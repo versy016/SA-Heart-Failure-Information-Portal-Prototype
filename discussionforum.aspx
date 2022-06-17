@@ -6,17 +6,52 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!-- Style -->
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/patientPage.css" />
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <script>
+        function addRow() {
+            // get input values
+            var Subject = document.getElementById('Subject').value;
+            var Message = document.getElementById('Message').value;
 
+            // get the html table
+            // 0 = the first table
+            var table = document.getElementsByTagName('table')[0];
+
+            // add new empty row to the table
+            // 1 = in the top 
+            // table.rows.length = the end
+            var newRow = table.insertRow(1);
+
+            // add cells to the row
+            var cel1 = newRow.insertCell(0);
+            var cel2 = newRow.insertCell(1);
+            var cel3 = newRow.insertCell(2);
+            var cel4 = newRow.insertCell(3);
+            var cel5 = newRow.insertCell(4);
+
+            // add values to the cells
+            cel1.innerHTML = Subject;
+            cel1.style.fontWeight = 'bold';
+            cel2.innerHTML = "Shivam";
+            cel3.innerHTML = "-";
+            cel4.innerHTML = "0";
+                     
+        }
+
+        function cleartext(){
+
+            //clear the text area
+            document.getElementById('Subject').value = '';        
+            document.getElementById('Message').value = '';        
+
+        }
+    </script>
     <title>Patient Page</title>
 
 <body>
@@ -52,9 +87,8 @@
         </symbol>
     </svg>
 
-     <!-- Navigation Bar-->
     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
-        <!-- Logo -->
+
         <div class="col-12">
             <div class="site-logo ">
                 <a href="home.aspx" class="text-black"><span class="text-primary">CEIH</a>
@@ -84,7 +118,7 @@
                 </ul>
             </nav>
         </div>
-         <!-- Login Button-->
+
         <div class="toggle-button d-inline-block d-lg-none"><a href="#"
                 class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
@@ -94,7 +128,6 @@
 
     <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" id="sidebar">
         <hr>
-         <!-- Highlighting Dashboard Items-->
         <ul class="nav nav-pills flex-column mb-auto">
             <!-- <li class="nav-item">
                 <a href="#" class="nav-link active" aria-current="page">
@@ -113,7 +146,7 @@
                 </a>
             </li>
             <li>
-                <a href="discussionforum.aspx" class="nav-link text-white">
+                <a href="#" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#table" />
                     </svg>
@@ -121,84 +154,85 @@
                 </a>
             </li>
             <li>
-                <a href="profile.aspx" class="nav-link text-white">
+                <a href="#" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#people-circle" />
                     </svg>
                     Profile
+
                 </a>
             </li>
         </ul>
         <hr>
     </div>
-     <!-- Column Cards for the Main Dashboard -->
+
     <section>
         <div class="row ">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Latest Information</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">Latest Information </a>
+            <table class="table caption-top">
+                <caption>Discussion Forum <button class="button-34" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsepost" aria-expanded="false" aria-controls="collapseExample"
+                        style=" float: right;">Create New Post</button>
+                </caption>
+                <div class="collapse" id="collapsepost">
+                    <div class="card" style="width: 38rem;">
+
+                        <div class="card card-body">
+
+                            Subject: <input type="text" name="Subject" id="Subject" /><br /><br />
+                            Message: <textarea type="text" rows="10" name="Message" id="Message" required minlength="10"
+                                maxlength="5000"></textarea><br /><br />
+                            <div class="row" style="padding: 1rem;">
+                                <button class="btn btn-primary" onclick="addRow();cleartext();" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsepost" aria-expanded="false"
+                                    aria-controls="collapseExample">Post to forum</button><br /><br />
+                                &nbsp;
+                                &nbsp;
+                                <button class="btn btn-outline-dark" onclick="cleartext();" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsepost" aria-expanded="false"
+                                    aria-controls="collapseExample">Cancel</button><br /><br />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Guidelines</h5>
-                        <p class="card-text">Access the Guidelines on heart failure</p>
-                        <a href="#" class="btn btn-primary"> Guidelines </a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Latest News</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">News</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem">
-                    <img class="card-img-top"
-                        src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1"
-                        alt="Snowy Mountains">
-                    <div class="card-body">
-                        <h5 class="card-title">Clinical Trials and Research</h5>
-                        <p class="card-text">Access the lates Information on heart failure</p>
-                        <a href="#" class="btn btn-primary">Clinical Trials and Research </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-         <!--Mapping-->
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card" style="height: 18rem">
-                    <div class="card-body">
-                        <h5 class="card-title">Nearby Services</h5>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62234.61599009292!2d138.5770226155087!3d-34.93644991564545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ab735c7c526b33f%3A0x4033654628ec640!2sAdelaide%20SA!5e0!3m2!1sen!2sau!4v1654546285403!5m2!1sen!2sau" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-          <a href="https://www.google.com/maps/@-34.8996956,138.6049149,13z"><address class="font-italic">Adelaide, 5000 S.A. Australia</address></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Surveys</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+                <thead>
+                    <tr>
+                        <th scope="col">Discussion</th>
+                        <th scope="col">Started by</th>
+                        <th scope="col">Last post</th>
+                        <th scope="col">Replies</th>
+                    </tr>
+                </thead>
+                <tbody class="table group-divider">
+                    <tr>
+                        <th scope="row">Is smoking weed good for your heart?</th>
+                        <td>Shivam </td>
+                        <td>Paul</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tips for healthy heart?</th>
+                        <td>Jan </td>
+                        <td>Paul</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Studying too much effects your heart?</th>
+                        <td>Paul </td>
+                        <td>Shivam</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
         </div>
     </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+
 </body>
 
-</html><iframe src= width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</html>

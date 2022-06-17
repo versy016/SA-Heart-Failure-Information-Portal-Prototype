@@ -26,10 +26,16 @@
             {
               alert("Please enter your email");
             }
-            else{
+            else if (email == "patient@abc.com" && password == "portal@123"){
               window.location = "patientPage.aspx";
-                        return true;   
-            
+                        return true;  
+            }
+            else if (email == "doctor@abc.com" && password == "portal@123"){
+              window.location = "clinicianspage.aspx";
+                        return true;  
+            }
+            else{
+              alert("Invalid email or password");
             }
             
          }
