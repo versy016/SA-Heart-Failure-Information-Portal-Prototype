@@ -96,14 +96,7 @@
         <hr>
          <!-- Highlighting Dashboard Items-->
         <ul class="nav nav-pills flex-column mb-auto">
-            <!-- <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">
-                    <svg class="bi me-2" width="16" height="16">
-                        <use xlink:href="#home" />
-                    </svg>
-                    Home
-                </a>
-            </li> -->
+          
             <li>
                 <a href="patientPage.aspx" class="nav-link text-white">
                     <svg class="bi me-2" width="16" height="16">
