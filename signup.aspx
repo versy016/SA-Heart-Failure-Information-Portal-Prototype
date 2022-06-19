@@ -5,6 +5,19 @@
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="css/signup.css">
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+     <!-- Style -->
+     <link rel="stylesheet" href="css/style.css"/>
+     <!-- <link href = "css/home.css" rel = "stylesheet" type = "text/css"> -->
+ 
+     <link rel="stylesheet" href="fonts/icomoon/style.css">
+ 
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+ 
+
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <!-- Validates the email and phone number -->
      <script>
@@ -31,9 +44,12 @@
       </script>
    
   </head>
-<body>
+  <body>
+  
    <!-- Profile Sign Up Page -->
-  <div class="container">
+ 
+ 
+   <div class="container">
     <div class="title">Registration</div>
     <div class="content">
       <form name="signup" action="login.aspx"   method="POST">        
