@@ -84,7 +84,7 @@
           <div class = "cardImg"></div>
           <h2>Latest Health Updates...</h2>
           <p>Sign Up to view latest News and Guidelines regarding Heart Failure</p> 
-          <a href = "singup.aspx">Sign Up</a>
+          <a href = "signup.aspx">Sign Up</a>
       </div>
 
     </section>

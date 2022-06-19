@@ -3,121 +3,42 @@
     margin: 0; 
 }
 
+/* body layout positioning and color*/
 body { 
     background-color: #ffffff;
-    /* background-image: url('../Images/contact-us.png'); */
-    background-repeat: no-repeat; 
     background-size: 100%;
     background-position: center;
-}
-
-.contact-container{ 
-    display: flex; 
     position: relative;
-    justify-content: center;
-    flex-wrap: wrap; 
-
-    text-align: center;
-
-    height: 300px;
-    width: 500px;
-    margin: auto;
-    top: 250px;
-
-    background-color: white;
-    border: 2px solid black; 
-    border-radius: 5px;
+    overflow: hidden;
 
 }
 
-h1 { 
-    font-size: 70px;
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: sans-serif;
-}
-
-h3 { 
-    font-size: 20px;
+/* setting paragraph text to bold and black */
+p {
     font-weight: bold;
-    text-align: center;
-    font-family: sans-serif;
-    height: 180px; 
-}
+    color:black
+  }
 
-/* Container */ 
 
-.row-1 {
-    display: block; 
-    position: relative;
-    justify-content: center;
-    float: left;
-    flex-wrap: wrap; 
-
-    align-items: center;
-
-    height: 500px;
-    width: 50%;
-    margin: auto;
-    top: 350px;
-    padding: 20px; 
-
+/* Footer */ 
+.footer-container{ 
     background-color: whitesmoke;
-    border: 1px solid black; 
-
-}
-
-.row-2 { 
-    display: block; 
-    position: relative;
-    justify-content: center;
-    float: right;
-    flex-wrap: wrap; 
-
-    height: 500px;
-    width: 50%;
-    margin: auto;
-    top: 350px;
-    padding: 20px;
-
-    background-color: whitesmoke;
-    border: 1px solid black; 
-
-}
-
-.img-class { 
-    height: 300px; 
-    width: 300px;
-    border-radius: 5px;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    display: block;
-    align-items: center;
-
-}
-
-h2 { 
-
+    padding: 10px 0 10px 0;
+    height: 120px; 
+    width: 100%;
+    left: 0;
+    bottom: 0; 
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: bold;
+    align-items: center;
 }
-
-h4 { 
-
-    font-size: 15px;
+p4 { 
     font-family: sans-serif;
-    font-weight: bold;
-    text-align: left;
-    padding-bottom: 5px;
-}
-
-p { 
-    font: 15px;
-    font-family: sans-serif;
+    font-weight: lighter;
+    color: black;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
 }

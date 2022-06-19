@@ -2,12 +2,15 @@
     padding: 0; 
     margin: 0; 
     box-sizing: border-box;
+
 }
 
 
 .body { 
     background-color: whitesmoke; 
     font-family: sans-serif;
+    overflow: hidden;
+
 }
 
 /* footer */ 
@@ -20,6 +23,8 @@
     bottom: 0; 
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
+    position: absolute;
 }
 
 p4 { 
