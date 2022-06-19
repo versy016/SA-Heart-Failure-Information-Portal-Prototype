@@ -52,8 +52,9 @@
         </symbol>
     </svg>
 
+     <!-- Navigation Bar-->
     <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
-
+        <!-- Logo -->
         <div class="col-12">
             <div class="site-logo ">
                 <a href="home.aspx" class="text-black"><span class="text-primary">CEIH</a>
@@ -83,7 +84,7 @@
                 </ul>
             </nav>
         </div>
-
+         <!-- Login Button-->
         <div class="toggle-button d-inline-block d-lg-none"><a href="#"
                 class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
 
@@ -93,6 +94,7 @@
 
     <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" id="sidebar">
         <hr>
+         <!-- Highlighting Dashboard Items-->
         <ul class="nav nav-pills flex-column mb-auto">
             <!-- <li class="nav-item">
                 <a href="#" class="nav-link active" aria-current="page">
@@ -129,7 +131,7 @@
         </ul>
         <hr>
     </div>
-
+     <!-- Column Cards for the Main Dashboard -->
     <section>
         <div class="row ">
             <div class="card-deck">
@@ -175,6 +177,7 @@
                 </div>
             </div>
         </div>
+         <!--Mapping-->
         <div class="row">
             <div class="col-sm-6">
                 <div class="card" style="height: 18rem">

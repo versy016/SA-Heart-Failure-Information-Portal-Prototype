@@ -24,7 +24,7 @@
 
   </head>
 
-
+   <!-- Empty Profile -->
    <body> 
         <div class="container emp-profile">
             <form method="post">
@@ -66,6 +66,7 @@
                            
                         </div>
                     </div>
+                     <!-- Profile Content -->
                     <div class="col-md-8">
                         <div class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
