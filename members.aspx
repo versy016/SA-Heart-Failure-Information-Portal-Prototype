@@ -67,31 +67,78 @@
 
       </header>
 
-    <div class = "container-main">
-      <div class = "course"> 
-          <div class="preview">
-              <img src = "../sa-heart-failure-information-portal/Images/portraitImg.png" class = "portrait-img" alt = "image"> 
-          </div> 
-          <div class="info">
-            <h6>Member Role</h6>
-            <h2> Member Name</h2> 
-            <p class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
-          </div>
+      <div class="container">
+        <div class="section-title">
+            <h1>Committee Members</h1>
         </div>
-    </div> 
 
-    <div class = "container-main-2">
-        <div class = "course-2"> 
-            <div class="preview-2">
-                <img src = "../sa-heart-failure-information-portal/Images/portraitImg.png" class = "portrait-img-2" alt = "image"> 
-            </div> 
-            <div class="info-2">
-              <h6>Member Role</h6>
-              <h2> Member Name</h2> 
-              <p class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+        <div class="row">
+
+
+            <div class="column">
+                <div class="team">
+                    <div class="team-img">
+                        <img src="Images/profileimg.png" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Member 1</h2>
+                        <h3>Position</h3>
+                        <p>Some text goes here that describes about team members</p>
+                        <h4>abc@gmail.com</h4>
+                    </div>
+                  
+                </div>
             </div>
-          </div>
-      </div> 
+
+            <div class="column">
+                <div class="team">
+                    <div class="team-img">
+                        <img src="Images/profileimg.png" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Member 2</h2>
+                        <h3>Position</h3>
+                        <p>Some text goes here that describes about team members</p>
+                        <h4>abc@gmail.com</h4>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="team">
+                    <div class="team-img">
+                        <img src="Images/profileimg.png" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Member 3</h2>
+                        <h3>Position</h3>
+                        <p>Some text goes here that describes about team members</p>
+                        <h4>abc@gmail.com</h4>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="team">
+                    <div class="team-img">
+                        <img src="Images/profileimg.png" alt="Team Image">
+                    </div>
+                    <div class="team-content">
+                        <h2>Member 4</h2>
+                        <h3>Position</h3>
+                        <p>Some text goes here that describes about team members</p>
+                        <h4>abc@gmail.com</h4>
+                    </div>
+                  
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
 
       <!--Footer & Lanugage Selector-->
       <div class = "footer-container">
