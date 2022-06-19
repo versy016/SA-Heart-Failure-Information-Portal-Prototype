@@ -27,10 +27,6 @@ body {
   cursor: pointer;
 }
 
-/* form.example button:hover {
-  background: #0b7dda;
-} */
-
 .searchBar { 
     width: 100%;
     max-width: 700px;
